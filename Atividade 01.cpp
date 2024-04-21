@@ -126,6 +126,7 @@ int main()
 	printf ("\t1 - Cadastro dos Acadêmicos \n");
 	printf ("\t2 - Verificar Estudantes \n");
 	printf ("\t3 - Remover Nomes de Alunos \n\n");
+	printf ("\t4 - Sair do Sistema");
 	printf ("        Esse Softare é de uso Livre\n");
 	printf ("Opção: "); //fim do menu
 	
@@ -146,6 +147,12 @@ int main()
 		case 3:
 		deletar();
 		break;
+		
+		case 4:
+		printf("Obrigado por utilizar o sistema!\n");
+		return 0;
+		break;
+		
 		
 			
 		default:
